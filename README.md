@@ -1,1 +1,134 @@
 # Bright-Repairs-
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bright Repairs</title>
+</head>
+
+<body>
+  <header>
+    <h1>Bright Phone Repair LTD </h1>
+  </header>
+  <nav>
+    <a href="#service">Service</a>
+    <a href="#required">Requires</a>
+    <a href="#about">About</a>
+    <a href="#register">Register</a>
+  </nav>
+  <main>
+    <section id="service">
+      <h2>Services</h2>
+      <table border="1">
+        <tr>
+          <th> Phone repair</th>
+          <th>Laptop's repairs</th>
+          <th>Sales of  accessories</th>
+          <th>Sales of phone and Laptops</th>
+        </tr>
+        <tr>
+          <td>iPhones</td>
+          <td>VGA problems</td>
+          <td>Batteries</td>
+          <td>Infinix</td>
+        </tr>
+        <tr>
+          <td>Android phones</td>
+          <td>Hard drive change </td>
+          <td>Screen</td>
+          <td>Dell</td>
+        </tr>
+        <tr>
+          <td>Samsung's</td>
+          <td>Formatting</td>
+          <td>Flex</td>
+          <td>Toshiba</td>
+        </tr>
+        <tr>
+          <td>Button phone</td>
+          <td>Installation</td>
+          <td>Power banks</td>
+          <td>Samsung</td>
+        </tr>
+      </table>
+    </section>
+    <section id="required">
+      <h2>Requires</h2>
+      <p>To partner with us is easy just register below as customer to deal with us</p>
+      <h4>Book your ticket</h4>
+      <ol>
+      <li>VIP = ₦20,000</li>  
+      <li>Regular = ₦10,000</li>
+      <li>Student = ₦60,000</li>
+      </ol>
+      <aside>
+       <p><strong>Note:</strong>
+        we also accept new members who want to learn and have hardware practical understanding of devices contact us below thank you</p> 
+      </aside>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>Bright repair centre, repairs device that are spoilt and sell part's and other accessories</p>
+      <p>we also teach does who are ready to learn</p>
+      
+    </section>
+    <section id="register">
+      <h2>Register</h2>
+          <form action="#"method="get" accept-charset="utf-8">
+      <fieldset>
+        
+      <legend>
+      
+      <b>fill in your details here</b> </legend>
+  
+        <label for="fullName">FullName:</label>
+        <input type="text" name="fullName" id="fullName" required><br>
+        <label for="age">Age:</label><input type="number" name="age" id="age" max="2" min="1" 
+        placeholder="22"
+        required><br>
+        <label for="phone">Phone number:</label>
+        <input type="tel" name="phone" id="phone" required>
+        <br>
+        <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required> <br>
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="date">
+      <br>
+      <label for="purpose">purpose</label>
+      <select name="purpose" id="purpose">
+        <option value="Partner">Partner</option>
+        <option value="Customer">Customer</option>
+        <option value="student">Student</option>
+      </select><br>
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" >
+      <label for="Male">Male</label>
+      <input type="radio" name="gender" ><label for="Female">Female</label>
+      <br>
+      <label for="hobbies">Hobbies:</label><br>
+      <input type="checkbox" name="hobbies" > Football 
+        <input type="checkbox" name="hobbies" > Basketball 
+          <input type="checkbox" name="hobbies" > Tennis 
+          <br>
+          <input type="reset" name="rest" >
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+  <hr />
+  
+  <address>
+    
+   &copy;2026 No. 27 John Street, Achara Layout, Enugu, Enugu State, Nigeria.
+Phone: 080-9875-4778
+Email: cryptobillion.enugu@gmail.com
+  </address>
+</footer>
+</body>
+</html>
